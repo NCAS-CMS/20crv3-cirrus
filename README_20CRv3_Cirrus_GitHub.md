@@ -1,8 +1,8 @@
 # 20CRv3 on Cirrus — Quick Start
 
-**Four-cycle reference workflow · 23 November 2026 · Version 2 (final audit pending)**
+**Four-cycle reference workflow**
 
-This page reproduces the operational instructions and all **11 copy-and-paste command blocks** from the Version 2 Quick Start. It is intended for Ed Hawkins and the project team. Use a **Bash terminal on Cirrus**. Run one block at a time, in order; **stop at any FAIL**.
+This page reproduces the operational instructions and all **11 copy-and-paste command blocks** from the Version 2 Quick Start. Use a **Bash terminal on Cirrus**. Run one block at a time, in order; **stop at any FAIL**.
 
 > **Safety:** Step 8 submits a real **80-node exclusive Slurm job**. Do not run it merely to test this guide. The commands are tailored to the **October 2026 reference case**, not arbitrary dates. Do not modify shared executables, science, stochastic seeds or inputs.
 
