@@ -1,6 +1,6 @@
 # 20CRv3 on Cirrus — Quick Start
 
-**Four-cycle October 2026 reference workflow · 23 November 2026 · Quick start (setup → submission → monitoring)**
+**Four-cycle October 2026 reference workflow **
 
 This page reproduces the operational instructions and the **nine numbered steps** from the Version 2 Quick Start. It is intended for Ed Hawkins and the project team. Use a **Bash terminal on Cirrus**. Run one block at a time, in order; **stop at any FAIL**.
 
@@ -277,7 +277,7 @@ fi
 
 **FAIL:** Do not retry until checking the queue and logs. A precheck failure means no submission was attempted.
 
-## Step 9 — Monitor the job (D2) — END OF QUICK START
+## Step 9 — Monitor the job (D2)
 
 After Step 8 prints `JOB=<number>`, check its state. **Do not run Step 9 if Step 8 failed.** If you reconnect, repeat Step 1 in Bash and then set `JOB=<actual numeric job ID>` (replace the placeholder with the real number reported by Slurm).
 
