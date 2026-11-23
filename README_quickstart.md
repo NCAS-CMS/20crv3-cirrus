@@ -2,7 +2,7 @@
 
 **Four-cycle October 2026 reference workflow **
 
-This page reproduces the operational instructions and the **nine numbered steps** from the Version 2 Quick Start. It is intended for Ed Hawkins and the project team. Use a **Bash terminal on Cirrus**. Run one block at a time, in order; **stop at any FAIL**.
+This page reproduces the operational instructions and the **nine numbered steps** from the Version 2 Quick Start. Use a **Bash terminal on Cirrus**. Run one block at a time, in order; **stop at any FAIL**.
 
 ## Reference configuration
 
