@@ -319,7 +319,3 @@ ls "$DATADIR/logs/ensda_602_2026/"
 - **Fresh directories:** Steps 2, 4 and 6 deliberately refuse pre-existing work/data directories. Never delete an existing run to make a check pass without first identifying its contents.
 - **Environment:** Step 7 compares against the validated login modules. Ed's login environment has not been tested independently; a mismatch requires investigation, not bypassing the check.
 - **If a step fails:** Stop, record the exact command and output, and do not edit shared files or blindly retry `sbatch`.
-
-## Verification status
-
-The underlying October 2026 reference workflow was executed on Cirrus (reference job `629598`). The 17-file shared runtime checksum check passed in the handover testing, and the insufficient-storage submission guard correctly blocked an unsafe submission. The complete nine-step GitHub procedure has **not** been run from scratch under Ed's account, and no new 80-node job was submitted to test this README. This document intentionally stops at job monitoring; scientific validation is documented separately.
